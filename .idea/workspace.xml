@@ -2,8 +2,8 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="Demo3" targetName="Demo" />
-      <config projectName="Demo3" targetName="MathFunctions" />
+      <config projectName="cmake_demo" targetName="MathFunc" />
+      <config projectName="cmake_demo" targetName="Demo" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -12,7 +12,14 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="03123a24-8ba1-46b7-8df7-f9ed6f09790d" name="Default Changelist" comment="" />
+    <list default="true" id="03123a24-8ba1-46b7-8df7-f9ed6f09790d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/math/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/math/CMakeLists.txt" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +30,12 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1WI8f1ZuTnWjfxGuij3JzAsDQFN" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/CMakeLists.txt" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
@@ -42,19 +53,19 @@
     </option>
   </component>
   <component name="RunManager" selected="CMake Application.Demo">
-    <configuration name="Demo" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Demo3" TARGET_NAME="Demo" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Demo3" RUN_TARGET_NAME="Demo">
+    <configuration name="Demo" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cmake_demo" TARGET_NAME="Demo" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="cmake_demo" RUN_TARGET_NAME="Demo">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MathFunctions" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Demo3" TARGET_NAME="MathFunctions" CONFIG_NAME="Debug">
+    <configuration name="MathFunc" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="cmake_demo" TARGET_NAME="MathFunc" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="CMake Application.Demo" />
-      <item itemvalue="CMake Application.MathFunctions" />
+      <item itemvalue="CMake Application.MathFunc" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -68,10 +79,22 @@
       <option name="presentableId" value="Default" />
       <updated>1578825847549</updated>
       <workItem from="1578825850931" duration="6023000" />
+      <workItem from="1578840613371" duration="2067000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
