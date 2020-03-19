@@ -5,8 +5,6 @@ aux_source_directory(. DIR_LIB_SRCS)
 # 指定生成 MathFunctions 链接库
 add_library (MathFunc SHARED ${DIR_LIB_SRCS})
 #把这个库安装到系统usr目录中
-install(TARGETS MathFunc
-        LIBRARY DESTINATION lib
-        )
+install(TARGETS MathFunc  LIBRARY DESTINATION lib)
 message(statu " Withdraw from math/CL.txt")
 

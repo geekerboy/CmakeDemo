@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <iostream>
 #include <stdlib.h>
 #include "math/MathFunctions.h"
 
@@ -12,6 +13,8 @@ int main(int argc, char *argv[])
 //    int exponent = atoi(argv[2]);
     double base = 3.14;
     int exponent = 2;
+    std::cout<<"Input the nums to calculate "<<std::endl;
+    std::cin>>base>>exponent;    
     double result = power(base, exponent);
     printf("%g ^ %d is %g\n", base, exponent, result);
     return 0;
