@@ -8,3 +8,7 @@ The project contains message add_executable project PROJECT_BINARY_DIR PROJECT_S
 
 2020.1.12晚些时候
 把生成的链接库以及头文件安装到/usr相应的位置上
+
+2020.3.20
+添加动态输入计算某个数的整数幂的值（第一个数是底数，第二个是指数）
+实践发现，只安装库文件，不安装头文件也可以正常运行(新建build文件夹，编译后只保留可执行文件，其余文件直接删除）？？？？
