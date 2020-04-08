@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <iostream>
 #include <stdlib.h>
-#include "math/MathFunctions.h"
+#include "math/mymathfunction.h"
 
 int main(int argc, char *argv[])
 {

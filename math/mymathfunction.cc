@@ -5,6 +5,7 @@
  *
  * @return base raised to the power exponent.
  */
+#include "mymathfunction.h"
 double power(double base, int exponent)
 {
     int result = base;

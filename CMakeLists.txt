@@ -27,6 +27,6 @@ message(status " Before cd math")
 add_subdirectory(math)
 message(status " Back into main dir")
 #安装.h文件到．．．目录,第一次编译的时候include前面加了个/,结果直接安装到/include文件下,不是想要的/usr/include
-#install(FILES math/MathFunctions.h DESTINATION include/mathfunc)
+install(FILES math/mymathfunction.h DESTINATION include/)
 # 添加链接库
 target_link_libraries(Demo MathFunc)
